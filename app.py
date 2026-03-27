@@ -3,7 +3,7 @@ import pandas as pd
 import io
 
 # Set page configuration
-st.set_page_config(page_title="World Cup 2026 Fixture Filter", layout="wide")
+st.set_page_config(page_title="FIFA World Cup 2026 Fixture Filter", layout="wide")
 
 # Custom CSS
 st.markdown("""
@@ -99,7 +99,7 @@ div[data-baseweb="menu"] li[aria-selected="true"], div[data-baseweb="menu"] li:h
 """, unsafe_allow_html=True)
 
 # Title
-st.markdown("<h1 style='text-align: center;'>World Cup 2026<sup>&trade;</sup> Fixture Finder</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>FIFA World Cup 2026<sup>&trade;</sup> Fixture Finder</h1>", unsafe_allow_html=True)
 
 
 
