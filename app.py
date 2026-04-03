@@ -106,67 +106,67 @@ st.markdown("<h1 style='text-align: center;'>FIFA World Cup 2026<sup>&trade;</su
 # CSV Data Inlined
 CSV_DATA = """Date,Group,Home Team,Away Team,City
 2026-06-11,A,Mexico,South Africa,Mexico City
-2026-06-11,A,Korea Republic,Czechia/Denmark,Guadalajara
-2026-06-12,B,Canada,Bosnia and Herzegovina/Italy,Toronto
+2026-06-11,A,Korea Republic,Czechia,Guadalajara
+2026-06-12,B,Canada,Bosnia and Herzegovina,Toronto
 2026-06-12,D,USA,Paraguay,Los Angeles
 2026-06-13,C,Haiti,Scotland,Boston
-2026-06-13,D,Australia,Kosovo/Türkiye,Vancouver
+2026-06-13,D,Australia,Türkiye,Vancouver
 2026-06-13,C,Brazil,Morocco,New York/New Jersey
 2026-06-13,B,Qatar,Switzerland,San Francisco Bay Area
 2026-06-14,E,Côte d'Ivoire,Ecuador,Philadelphia
 2026-06-14,E,Germany,Curaçao,Houston
 2026-06-14,F,Netherlands,Japan,Dallas
-2026-06-14,F,Sweden/Poland,Tunisia,Monterrey
+2026-06-14,F,Sweden,Tunisia,Monterrey
 2026-06-15,H,Saudi Arabia,Uruguay,Miami
 2026-06-15,H,Spain,Cabo Verde,Atlanta
 2026-06-15,G,IR Iran,New Zealand,Los Angeles
 2026-06-15,G,Belgium,Egypt,Seattle
 2026-06-16,I,France,Senegal,New York/New Jersey
-2026-06-16,I,Iraq/Bolivia,Norway,Boston
+2026-06-16,I,Iraq,Norway,Boston
 2026-06-16,J,Argentina,Algeria,Kansas City
 2026-06-16,J,Austria,Jordan,San Francisco Bay Area
 2026-06-17,L,Ghana,Panama,Toronto
 2026-06-17,L,England,Croatia,Dallas
-2026-06-17,K,Portugal,Jamaica/DR Congo,Houston
+2026-06-17,K,Portugal,DR Congo,Houston
 2026-06-17,K,Uzbekistan,Colombia,Mexico City
-2026-06-18,A,Czechia/Denmark,South Africa,Atlanta
-2026-06-18,B,Switzerland,Bosnia and Herzegovina/Italy,Los Angeles
+2026-06-18,A,Czechia,South Africa,Atlanta
+2026-06-18,B,Switzerland,Bosnia and Herzegovina,Los Angeles
 2026-06-18,B,Canada,Qatar,Vancouver
 2026-06-18,A,Mexico,Korea Republic,Guadalajara
 2026-06-19,C,Brazil,Haiti,Philadelphia
 2026-06-19,C,Scotland,Morocco,Boston
-2026-06-19,D,Kosovo/Türkiye,Paraguay,San Francisco Bay Area
+2026-06-19,D,Türkiye,Paraguay,San Francisco Bay Area
 2026-06-19,D,USA,Australia,Seattle
 2026-06-20,E,Germany,Côte d'Ivoire,Toronto
 2026-06-20,E,Ecuador,Curaçao,Kansas City
-2026-06-20,F,Netherlands,Sweden/Poland,Houston
+2026-06-20,F,Netherlands,Sweden,Houston
 2026-06-20,F,Tunisia,Japan,Monterrey
 2026-06-21,H,Uruguay,Cabo Verde,Miami
 2026-06-21,H,Spain,Saudi Arabia,Atlanta
 2026-06-21,G,Belgium,IR Iran,Los Angeles
 2026-06-21,G,New Zealand,Egypt,Vancouver
 2026-06-22,I,Norway,Senegal,New York/New Jersey
-2026-06-22,I,France,Iraq/Bolivia,Philadelphia
+2026-06-22,I,France,Iraq,Philadelphia
 2026-06-22,J,Argentina,Austria,Dallas
 2026-06-22,J,Jordan,Algeria,San Francisco Bay Area
 2026-06-23,L,England,Ghana,Boston
 2026-06-23,L,Panama,Croatia,Toronto
 2026-06-23,K,Portugal,Uzbekistan,Houston
-2026-06-23,K,Colombia,Jamaica/DR Congo,Guadalajara
+2026-06-23,K,Colombia,DR Congo,Guadalajara
 2026-06-24,C,Scotland,Brazil,Miami
 2026-06-24,C,Morocco,Haiti,Atlanta
 2026-06-24,B,Switzerland,Canada,Vancouver
-2026-06-24,B,Bosnia and Herzegovina/Italy,Qatar,Seattle
-2026-06-24,A,Czechia/Denmark,Mexico,Mexico City
+2026-06-24,B,Bosnia and Herzegovina,Qatar,Seattle
+2026-06-24,A,Czechia,Mexico,Mexico City
 2026-06-24,A,South Africa,Korea Republic,Monterrey
 2026-06-25,E,Curaçao,Côte d'Ivoire,Philadelphia
 2026-06-25,E,Ecuador,Germany,New York/New Jersey
-2026-06-25,F,Japan,Sweden/Poland,Dallas
+2026-06-25,F,Japan,Sweden,Dallas
 2026-06-25,F,Tunisia,Netherlands,Kansas City
-2026-06-25,D,Kosovo/Türkiye,USA,Los Angeles
+2026-06-25,D,Türkiye,USA,Los Angeles
 2026-06-25,D,Paraguay,Australia,San Francisco Bay Area
 2026-06-26,I,Norway,France,Boston
-2026-06-26,I,Senegal,Iraq/Bolivia,Toronto
+2026-06-26,I,Senegal,Iraq,Toronto
 2026-06-26,G,Egypt,IR Iran,Seattle
 2026-06-26,G,New Zealand,Belgium,Vancouver
 2026-06-26,H,Cabo Verde,Saudi Arabia,Houston
@@ -176,7 +176,7 @@ CSV_DATA = """Date,Group,Home Team,Away Team,City
 2026-06-27,J,Algeria,Austria,Kansas City
 2026-06-27,J,Jordan,Argentina,Dallas
 2026-06-27,K,Colombia,Portugal,Miami
-2026-06-27,K,Jamaica/DR Congo,Uzbekistan,Atlanta"""
+2026-06-27,K,DR Congo,Uzbekistan,Atlanta"""
 
 # Team Flags Mapping
 TEAM_FLAGS = {
